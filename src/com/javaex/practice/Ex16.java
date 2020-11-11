@@ -10,16 +10,17 @@ public class Ex16 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("상품가격: ");
-		int price = sc.nextInt();
+		double price = sc.nextDouble();
 		System.out.print("받은돈: ");
-		int money = sc.nextInt();
+		double money = sc.nextDouble();
 		
 		System.out.println("========================");
 		
 		System.out.println("받은돈: " + (double)money);
 		System.out.println("상품가격: " + (double)price);
 		System.out.println("부가세: " + (price*0.1));
-		System.out.println("잔액: " + money - price);
+		System.out.println("잔액: " + (money - price));
+		
 		
 		
 		

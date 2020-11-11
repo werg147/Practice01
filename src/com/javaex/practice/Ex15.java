@@ -13,6 +13,7 @@ public class Ex15 {
 		
 		final double mi = 1.609;
 		System.out.println( km + "마일은 " + (km*mi) + "킬로미터 입니다.");
+		System.out.println( km + "마일은 " + (km*mi) + "킬로미터 입니다.");
 		
 		sc.close();
 		
