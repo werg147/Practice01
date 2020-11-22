@@ -7,7 +7,7 @@ public class Ex09 {
 
 		//double f = 80.0; 
 		double f = 80.0;
-		System.out.println( 5/9*(f-32.0));
+		System.out.println( (double)5/9*(f-32.0));
 		
 
 		
